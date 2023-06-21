@@ -1,0 +1,69 @@
+/* Add your custom styles here */
+
+header {
+    padding: 100px 0;
+    background-color: #f8f9fa;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  #toggleModeBtn {
+    margin-top: 20px;
+  }
+  
+  section {
+    padding: 80px 0;
+  }
+  
+  section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  /* Additional styles for dark mode */
+  
+  .dark-mode {
+    background-color: #343a40;
+    color: #f8f9fa;
+  }
+  
+  .dark-mode header {
+    background-color: #212529;
+  }
+  
+  .dark-mode section {
+    background-color: #212529;
+  }
+  
+  .dark-mode form label {
+    color: #f8f9fa;
+  }
+  
+  /* Additional styles for responsive layout */
+  
+  @media (max-width: 767px) {
+    header h1 {
+      font-size: 24px;
+    }
+  
+    header p {
+      font-size: 16px;
+    }
+  
+    section h2 {
+      font-size: 24px;
+    }
+  }
+  

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Bootstrap Web App</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Web App</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+<header id="home" class="text-center">
+  <div class="container">
+    <h1 class="display-4">Welcome to Bootstrap Web App</h1>
+    <p class="lead">A responsive web application built using Bootstrap 5</p>
+    <button id="toggleModeBtn" class="btn btn-primary">Switch Mode</button>
+  </div>
+</header>
+
+<section id="about">
+  <div class="container">
+    <h2 class="h3">About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="ratio ratio-16x9">
+      <img src="./images/top.png" alt="Description of the image" class="img-fluid">
+    </div>
+  </div>
+</section>
+
+  <!-- Add the Spinners Section -->
+  <section id="spinners">
+    <div class="container">
+      <h2>Spinners</h2>
+      <!-- Indicate loading or processing state using a spinner -->
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+
+      <!-- Add the Progress Bars Section -->
+      <h2>Progress Bars</h2>
+      <!-- Indicate progress or completion using a progress bar -->
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Alert Section -->
+<section id="alerts">
+  <div class="container">
+    <h2>Alerts</h2>
+    <div class="alert alert-info" role="alert">
+      This is an informational alert.
+    </div>
+    <div class="alert alert-success" role="alert">
+      This is a success alert.
+    </div>
+    <div class="alert alert-warning" role="alert">
+      This is a warning alert.
+    </div>
+    <div class="alert alert-danger" role="alert">
+      This is an error alert.
+    </div>
+  </div>
+</section>
+
+  <!-- Add the Form Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Form</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control placeholder" id="name" placeholder="Enter your name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control placeholder" id="email" placeholder="Enter your email address">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control placeholder" id="message" rows="3" placeholder="Type your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+ <!-- Add the Canvas Section -->
+ <section id="canvas">
+  <div class="container">
+    <h2>Canvas Visualization</h2>
+    <canvas id="sportsChart"></canvas>
+  </div>
+</section>
+
+
+<!-- League Table Section -->
+<section id="league-table">
+    <div class="container">
+      <h2>League Table</h2>
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Team</th>
+              <th>Matches Played</th>
+              <th>Wins</th>
+              <th>Losses</th>
+              <th>Points</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Team 1</td>
+              <td>10</td>
+              <td>7</td>
+              <td>3</td>
+              <td>21</td>
+            </tr>
+            <tr>
+              <td>Team 2</td>
+              <td>10</td>
+              <td>6</td>
+              <td>4</td>
+              <td>18</td>
+            </tr>
+            <!-- Add more table rows for other teams -->
+          </tbody>
+        </table>
+      </div>
+      <nav>
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
