@@ -10,10 +10,10 @@ document.getElementById('toggleModeBtn').addEventListener('click', function() {
       const myChart = new Chart(ctx, {
         type: 'bar',
         data: {
-          labels: ['Team A', 'Team B', 'Team C', 'Team D'],
+          labels: ['Team 1', 'Team 2', 'Team 3', 'Team 4'],
           datasets: [{
             label: 'Points',
-            data: [12, 19, 8, 15],
+            data: [21, 18, 15, 15],
             backgroundColor: [
               'rgba(255, 99, 132, 0.2)',
               'rgba(54, 162, 235, 0.2)',
