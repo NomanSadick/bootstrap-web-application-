@@ -18,15 +18,15 @@ To run the Bootstrap Web Application locally on your machine, follow these steps
 3. Open the index.html file in your preferred web browser.
   
 ## Additional Notes
--This application utilizes Bootstrap 5 for responsive layout, styling, and various components.
--The project includes external dependencies such as Bootstrap and Chart.js, which are loaded via CDN links in the HTML file.
--Feel free to customize and modify the code to suit your specific requirements.
--Make sure to optimize images and other assets for the web to ensure fast loading times.
--The application is a starting point and can be extended with additional features and functionalities as needed.
+- This application utilizes Bootstrap 5 for responsive layout, styling, and various components.
+- The project includes external dependencies such as Bootstrap and Chart.js, which are loaded via CDN links in the HTML file.
+- Feel free to customize and modify the code to suit your specific requirements.
+- Make sure to optimize images and other assets for the web to ensure fast loading times.
+- The application is a starting point and can be extended with additional features and functionalities as needed.
   
 ## License
 This project is licensed under the MIT License.
 
 ## Acknowledgments
--The Bootstrap Web Application was created as a demonstration project and is not affiliated with Bootstrap or any sports leagues mentioned in the data.
+- The Bootstrap Web Application was created as a demonstration project and is not affiliated with Bootstrap or any sports leagues mentioned in the data.
 Please modify the content of the README.md file according to your specific project details, including any additional sections, acknowledgments, or license information.
