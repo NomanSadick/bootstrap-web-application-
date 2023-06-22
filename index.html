@@ -47,7 +47,31 @@
       <div class="row">
         <div class="col-lg-6">
           <h2 class="h3">About</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, temporibus. Sed eos impedit minus itaque hic odit voluptates asperiores quas?</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, temporibus. Sed eos impedit minus itaque
+            hic odit voluptates asperiores quas?</p>
+          <!-- Add the Modal Window -->
+          <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal Title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>This is the content of the modal window.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Button to Open the Modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+            Open Modal
+          </button>
         </div>
         <div class="col-lg-6">
           <div class="ratio ratio-16x9">
@@ -57,7 +81,7 @@
       </div>
     </div>
   </section>
-  
+
 
   <!-- Add the Spinners Section -->
   <section id="spinners">
@@ -116,6 +140,32 @@
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
+    </div>
+  </section>
+  <!-- Add buttons and list groups to enhance the user interface -->
+  <section id="buttons-and-lists">
+    <div class="container">
+      <h2>Buttons and List Groups</h2>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Buttons:</h4>
+          <button type="button" class="btn btn-primary">Primary Button</button>
+          <button type="button" class="btn btn-secondary">Secondary Button</button>
+          <button type="button" class="btn btn-success">Success Button</button>
+          <button type="button" class="btn btn-danger">Danger Button</button>
+        </div>
+
+        <div class="col-md-6">
+          <h4>List Group:</h4>
+          <ul class="list-group">
+            <li class="list-group-item">List item 1</li>
+            <li class="list-group-item">List item 2</li>
+            <li class="list-group-item">List item 3</li>
+            <li class="list-group-item">List item 4</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -195,7 +245,6 @@
       </nav>
     </div>
   </section>
-
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
